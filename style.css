@@ -1,0 +1,52 @@
+* 
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: linear-gradient(to right,#ff758c, #ff7eb3);
+    height: 100vh;
+    margin-top: 150px !important;
+}
+
+.leftside
+{
+    float: left;
+    margin-top: 50px;
+}
+
+.rightside
+{
+    border: 1px solid red;
+    padding: 25px;
+    border-top-left-radius: 10% 50%;
+    border-bottom-left-radius: 10% 50%;
+}
+
+.rightside h1{
+    padding: 20px;
+    text-align: center;
+}
+
+.form-group{
+    padding-left: 20px;
+}
+
+.rightside button{
+    float: right;
+    padding: 10px;
+    width: 120px;   
+    border-radius: 30px; 
+}
+
+img{
+    width: 80px;
+    height: 80px;
+    animation: mover 1s infinite alternate;
+}
+
+@keyframes mover{
+   0% { transform: translateY(0);}
+   100% {transform: translateY(-20px);}
+}
